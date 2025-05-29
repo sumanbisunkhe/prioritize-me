@@ -1,0 +1,331 @@
+[
+    {
+        "id": "68375cd295ea1",
+        "title": "Gorcery Shopping",
+        "description": "tomatoes\npotatoes\nonions\nchilly",
+        "created_at": "2025-05-27 20:58:26",
+        "completed": false,
+        "updated_at": "2025-05-29 15:24:18",
+        "priority": "high",
+        "tags": "grocerry"
+    },
+    {
+        "id": "68375fe06f5d0",
+        "title": "WT lab report",
+        "description": "Lab number 10 to 13. Due friday.",
+        "created_at": "2025-05-28 21:11:28",
+        "updated_at": "2025-05-29 15:46:21",
+        "priority": "medium",
+        "tags": "lab report, academic",
+        "completed": false
+    },
+    {
+        "id": "task001",
+        "title": "Finish DBMS assignment",
+        "description": "ER Diagram and Queries",
+        "created_at": "2025-05-29 10:00:00",
+        "updated_at": "2025-05-29 10:30:00",
+        "priority": "high",
+        "tags": "academic",
+        "completed": false
+    },
+    {
+        "id": "task002",
+        "title": "Buy birthday gift",
+        "description": "Gift for Sita's birthday",
+        "created_at": "2025-05-28 09:00:00",
+        "updated_at": "2025-05-28 09:05:00",
+        "priority": "low",
+        "tags": "personal",
+        "completed": true
+    },
+    {
+        "id": "task003",
+        "title": "Submit tax documents",
+        "description": "Due by end of the month",
+        "created_at": "2025-05-27 14:00:00",
+        "updated_at": "2025-05-27 14:15:00",
+        "priority": "high",
+        "tags": "finance",
+        "completed": false
+    },
+    {
+        "id": "task004",
+        "title": "Call home",
+        "description": "Weekly catch-up with family",
+        "created_at": "2025-05-26 18:00:00",
+        "updated_at": "2025-05-26 18:05:00",
+        "priority": "low",
+        "tags": "family",
+        "completed": true
+    },
+    {
+        "id": "task005",
+        "title": "Clean desk",
+        "description": "Organize study and working desk",
+        "created_at": "2025-05-30 08:00:00",
+        "updated_at": "2025-05-30 08:15:00",
+        "priority": "low",
+        "tags": "personal",
+        "completed": false
+    },
+    {
+        "id": "task006",
+        "title": "Gym workout",
+        "description": "Leg day session",
+        "created_at": "2025-05-30 06:00:00",
+        "updated_at": "2025-05-30 06:45:00",
+        "priority": "medium",
+        "tags": "fitness",
+        "completed": true
+    },
+    {
+        "id": "task007",
+        "title": "Update portfolio site",
+        "description": "Add new project section",
+        "created_at": "2025-05-30 09:00:00",
+        "updated_at": "2025-05-30 09:20:00",
+        "priority": "medium",
+        "tags": "development",
+        "completed": false
+    },
+    {
+        "id": "task008",
+        "title": "Attend seminar",
+        "description": "AI and Data Science",
+        "created_at": "2025-05-25 11:00:00",
+        "updated_at": "2025-05-25 13:00:00",
+        "priority": "high",
+        "tags": "learning",
+        "completed": true
+    },
+    {
+        "id": "task009",
+        "title": "Read 'Clean Code'",
+        "description": "Chapters 4 to 6",
+        "created_at": "2025-05-30 12:00:00",
+        "updated_at": "2025-05-30 12:30:00",
+        "priority": "medium",
+        "tags": "reading, coding",
+        "completed": false
+    },
+    {
+        "id": "task010",
+        "title": "Fix login bug",
+        "description": "Login issue in web app",
+        "created_at": "2025-05-29 16:00:00",
+        "updated_at": "2025-05-29 16:45:00",
+        "priority": "high",
+        "tags": "bugfix",
+        "completed": true
+    },
+    {
+        "id": "task011",
+        "title": "Practice DSA",
+        "description": "Linked list and tree problems",
+        "created_at": "2025-05-30 13:00:00",
+        "updated_at": "2025-05-30 13:15:00",
+        "priority": "medium",
+        "tags": "coding",
+        "completed": false
+    },
+    {
+        "id": "task012",
+        "title": "Doctor appointment",
+        "description": "Annual checkup",
+        "created_at": "2025-05-24 09:00:00",
+        "updated_at": "2025-05-24 09:30:00",
+        "priority": "high",
+        "tags": "health",
+        "completed": true
+    },
+    {
+        "id": "task013",
+        "title": "Water plants",
+        "description": "Front and backyard",
+        "created_at": "2025-05-30 07:30:00",
+        "updated_at": "2025-05-30 07:45:00",
+        "priority": "low",
+        "tags": "home",
+        "completed": false
+    },
+    {
+        "id": "task014",
+        "title": "Buy stationery",
+        "description": "Pens, notebooks, sticky notes",
+        "created_at": "2025-05-29 11:00:00",
+        "updated_at": "2025-05-29 11:05:00",
+        "priority": "low",
+        "tags": "personal",
+        "completed": true
+    },
+    {
+        "id": "task015",
+        "title": "Write blog draft",
+        "description": "Topic: REST vs GraphQL",
+        "created_at": "2025-05-28 15:00:00",
+        "updated_at": "2025-05-28 15:30:00",
+        "priority": "medium",
+        "tags": "writing, tech",
+        "completed": false
+    },
+    {
+        "id": "task016",
+        "title": "Volunteer at event",
+        "description": "Coding Bootcamp support",
+        "created_at": "2025-05-27 13:00:00",
+        "updated_at": "2025-05-27 13:45:00",
+        "priority": "high",
+        "tags": "community",
+        "completed": false
+    },
+    {
+        "id": "task017",
+        "title": "Send internship emails",
+        "description": "Reach out to 5 companies",
+        "created_at": "2025-05-26 20:00:00",
+        "updated_at": "2025-05-26 20:10:00",
+        "priority": "high",
+        "tags": "career",
+        "completed": true
+    },
+    {
+        "id": "task018",
+        "title": "Meditation",
+        "description": "15 minutes daily session",
+        "created_at": "2025-05-30 05:30:00",
+        "updated_at": "2025-05-30 05:45:00",
+        "priority": "low",
+        "tags": "health",
+        "completed": false
+    },
+    {
+        "id": "task019",
+        "title": "Refactor codebase",
+        "description": "Remove redundant code and comments",
+        "created_at": "2025-05-29 14:00:00",
+        "updated_at": "2025-05-29 14:45:00",
+        "priority": "medium",
+        "tags": "development",
+        "completed": true
+    },
+    {
+        "id": "task020",
+        "title": "Watch Docker tutorial",
+        "description": "Beginner to intermediate",
+        "created_at": "2025-05-30 10:00:00",
+        "updated_at": "2025-05-30 11:30:00",
+        "priority": "medium",
+        "tags": "learning",
+        "completed": false
+    },
+    {
+        "id": "task021",
+        "title": "Reinstall OS",
+        "description": "Ubuntu LTS setup",
+        "created_at": "2025-05-25 12:00:00",
+        "updated_at": "2025-05-25 14:00:00",
+        "priority": "high",
+        "tags": "system",
+        "completed": true
+    },
+    {
+        "id": "task022",
+        "title": "Order groceries",
+        "description": "Milk, Bread, Eggs, Fruits",
+        "created_at": "2025-05-30 07:00:00",
+        "updated_at": "2025-05-30 07:10:00",
+        "priority": "low",
+        "tags": "home",
+        "completed": false
+    },
+    {
+        "id": "task023",
+        "title": "Test API endpoints",
+        "description": "JWT secured routes",
+        "created_at": "2025-05-28 16:00:00",
+        "updated_at": "2025-05-28 16:20:00",
+        "priority": "medium",
+        "tags": "development",
+        "completed": false
+    },
+    {
+        "id": "task024",
+        "title": "Finalize poster design",
+        "description": "XpertLink event banner",
+        "created_at": "2025-05-26 17:00:00",
+        "updated_at": "2025-05-26 17:20:00",
+        "priority": "high",
+        "tags": "design",
+        "completed": false
+    },
+    {
+        "id": "task025",
+        "title": "Review resumes",
+        "description": "Candidates for internship",
+        "created_at": "2025-05-25 19:00:00",
+        "updated_at": "2025-05-25 19:30:00",
+        "priority": "high",
+        "tags": "career",
+        "completed": true
+    },
+    {
+        "id": "task026",
+        "title": "Organize bookmarks",
+        "description": "Sort by topic and relevance",
+        "created_at": "2025-05-30 12:30:00",
+        "updated_at": "2025-05-30 00:38:32",
+        "priority": "low",
+        "tags": "productivity",
+        "completed": false
+    },
+    {
+        "id": "task027",
+        "title": "Update LinkedIn profile",
+        "description": "Add recent achievements",
+        "created_at": "2025-05-29 20:00:00",
+        "updated_at": "2025-05-29 20:15:00",
+        "priority": "medium",
+        "tags": "career",
+        "completed": false
+    },
+    {
+        "id": "task028",
+        "title": "Watch React course",
+        "description": "Hooks and state management",
+        "created_at": "2025-05-28 10:00:00",
+        "updated_at": "2025-05-28 11:30:00",
+        "priority": "medium",
+        "tags": "learning",
+        "completed": true
+    },
+    {
+        "id": "task029",
+        "title": "Print notes",
+        "description": "Semester-end revision materials",
+        "created_at": "2025-05-27 08:00:00",
+        "updated_at": "2025-05-27 08:20:00",
+        "priority": "low",
+        "tags": "academic",
+        "completed": true
+    },
+    {
+        "id": "task030",
+        "title": "Plan weekend trip",
+        "description": "Hiking route and checklist",
+        "created_at": "2025-05-29 15:00:00",
+        "updated_at": "2025-05-29T19:19:57.535Z",
+        "priority": "low",
+        "tags": "leisure",
+        "completed": false
+    },
+    {
+        "id": "6838b339a4d44",
+        "title": "WT Project Documentation",
+        "description": "For board practical exam\n\n",
+        "priority": "high",
+        "tags": "urgent, project",
+        "completed": false,
+        "created_at": "2025-05-29T19:19:21.670Z"
+    }
+]
