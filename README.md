@@ -33,7 +33,17 @@
 PrioritizeMe is a sophisticated task management system that combines powerful functionality with an elegant user interface. Designed for professionals and teams, it offers a seamless experience for organizing and tracking tasks efficiently.
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400/6366f1/ffffff?text=PrioritizeMe+Dashboard" alt="PrioritizeMe Dashboard" width="800">
+  <h3>📱 Desktop & Mobile Views</h3>
+  <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+    <div>
+      <img src="/images/dashboard-1.png" alt="PrioritizeMe Desktop Dashboard" width="800" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+      <p><em>✨ Desktop Dashboard</em></p>
+    </div>
+    <div>
+      <img src="/images/image.png" alt="PrioritizeMe Mobile Dashboard" width="300" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+      <p><em>📱 Mobile Dashboard</em></p>
+    </div>
+  </div>
 </div>
 
 ## 🌟 Features <a id="features"></a>
@@ -129,6 +139,40 @@ PrioritizeMe is a sophisticated task management system that combines powerful fu
 | 2024 | Statistics dashboard |
 
 </div>
+
+## ✨ Recent Enhancements
+
+### 🎯 UI/UX Improvements
+- **Stylish Delete Confirmation**
+  - ✨ Beautiful modal design with blur effect
+  - 🎨 Smooth animations and transitions
+  - 🎯 Clear warning message with icon
+  - 💫 Interactive buttons with hover effects
+  - 📱 Fully responsive design for all devices
+
+### 📱 Mobile Optimizations
+- **Enhanced Mobile Experience**
+  - 📱 Sticky header with logo and navigation
+  - 🎨 Optimized spacing and typography
+  - 📊 Improved task card layout
+  - 🔄 Smooth scrolling behavior
+  - 🎯 Better touch targets for mobile users
+
+### 🎨 Visual Refinements
+- **Modern Design Elements**
+  - ⚡ New lightning bolt logo for energy and dynamism
+  - 🎯 Improved task priority indicators
+  - 📊 Enhanced statistics visualization
+  - 🎨 Refined color scheme and typography
+  - ✨ Subtle animations and transitions
+
+### 🔧 Technical Improvements
+- **Code Quality & Performance**
+  - 🚀 Optimized JavaScript functions
+  - 🔄 Improved state management
+  - 🎯 Enhanced error handling
+  - 📱 Better mobile responsiveness
+  - ⚡ Performance optimizations
 
 ## 🚀 Getting Started <a id="getting-started"></a>
 

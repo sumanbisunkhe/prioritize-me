@@ -214,7 +214,10 @@ function createTaskElement(task) {
     const deleteBtn = document.createElement('button');
     deleteBtn.className = 'delete-btn';
     deleteBtn.innerHTML = '<i class="fas fa-trash-alt"></i>';
-    deleteBtn.onclick = () => deleteTask(task.id);
+    deleteBtn.onclick = (e) => {
+        e.stopPropagation();
+        showDeleteModal(task.id);
+    };
     
     const description = document.createElement('p');
     description.textContent = task.description;
@@ -360,28 +363,63 @@ function editTask(taskId, title, description, priority, tags) {
     });
 }
 
-function deleteTask(taskId) {
-    if (confirm('Are you sure you want to delete this task?')) {
-        fetch('api/delete_task.php', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/x-www-form-urlencoded',
-            },
-            body: `id=${encodeURIComponent(taskId)}`
-        })
-        .then(response => response.json())
-        .then(data => {
-            if (data.success) {
-                loadTasks(); // Refresh the task list
-            } else {
-                alert('Error deleting task: ' + data.message);
-            }
-        })
-        .catch(error => {
-            console.error('Error deleting task:', error);
-            alert('Error deleting task. Please try again.');
-        });
+// Delete Modal Elements
+const deleteModal = document.getElementById('deleteModal');
+const deleteModalCancel = document.getElementById('deleteModalCancel');
+const deleteModalConfirm = document.getElementById('deleteModalConfirm');
+let taskToDelete = null;
+
+// Show Delete Modal
+function showDeleteModal(taskId) {
+    taskToDelete = taskId;
+    deleteModal.classList.add('show');
+    document.body.style.overflow = 'hidden';
+}
+
+// Hide Delete Modal
+function hideDeleteModal() {
+    deleteModal.classList.remove('show');
+    document.body.style.overflow = '';
+    taskToDelete = null;
+}
+
+// Event Listeners for Delete Modal
+deleteModalCancel.addEventListener('click', hideDeleteModal);
+deleteModalConfirm.addEventListener('click', () => {
+    if (taskToDelete) {
+        deleteTask(taskToDelete);
+        hideDeleteModal();
     }
+});
+
+// Close modal when clicking outside
+deleteModal.addEventListener('click', (e) => {
+    if (e.target === deleteModal) {
+        hideDeleteModal();
+    }
+});
+
+// Update the deleteTask function to use the modal
+function deleteTask(taskId) {
+    fetch('api/delete_task.php', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: `id=${encodeURIComponent(taskId)}`
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            loadTasks();
+            updateStats();
+        } else {
+            console.error('Error deleting task:', data.message);
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
 }
 
 function prepareEdit(taskId, title, description, priority, tags) {
