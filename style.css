@@ -1831,6 +1831,17 @@ button:active {
     }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Tablet styles */
+
+  .task {
+    min-height: 210px; /* Increased height for better visibility */
+    /* ... existing code ... */
+  }
+
+  /* ... existing code ... */
+}
+
 /* Delete Modal Styles */
 .delete-modal {
     display: none;
