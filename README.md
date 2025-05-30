@@ -36,12 +36,15 @@ PrioritizeMe is a sophisticated task management system that combines powerful fu
   <h3>📱 Desktop & Mobile Views</h3>
   <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
     <div>
-      <img src="/images/dashboard-1.png" alt="PrioritizeMe Desktop Dashboard" width="800" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
-      <p><em>✨ Desktop Dashboard</em></p>
+      <img src="/images/desktop-1.png" alt="PrioritizeMe Desktop Dashboard" width="800" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+      <img src="/images/desktop-2.png" alt="PrioritizeMe Desktop Dashboard" width="800" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+      <p><em>✨ Desktop Views</em></p>
     </div>
     <div>
-      <img src="/images/image.png" alt="PrioritizeMe Mobile Dashboard" width="300" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
-      <p><em>📱 Mobile Dashboard</em></p>
+      <img src="/images/mobile-1.png" alt="PrioritizeMe Mobile Dashboard" width="300" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+      <img src="/images/mobile-2.png" alt="PrioritizeMe Mobile Dashboard" width="300" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+      <img src="/images/mobile-3.png" alt="PrioritizeMe Mobile Dashboard" width="300" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+      <p><em>📱 Mobile Views</em></p>
     </div>
   </div>
 </div>
